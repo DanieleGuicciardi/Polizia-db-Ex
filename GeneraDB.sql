@@ -34,7 +34,7 @@ CREATE TABLE VERBALE (
 );
 
 INSERT INTO ANAGRAFICA (Cognome, Nome, Indirizzo, Citta, CAP, Cod_Fisc) VALUES
-('Rossi', 'Mario', 'Via Roma 10', 'Milano', '20100', 'RSSMRA80A01F205X'),    --Dati creati da chatgpt
+('Rossi', 'Mario', 'Via Roma 10', 'Milano', '20100', 'RSSMRA80A01F205X'),
 ('Bianchi', 'Luigi', 'Via Milano 20', 'Torino', '10100', 'BNCLGU75B02L219X'),
 ('Verdi', 'Anna', 'Viale Italia 5', 'Napoli', '80100', 'VRDANN85C03N220Y'),
 ('Esposito', 'Giovanni', 'Corso Garibaldi 3', 'Roma', '00100', 'ESPJGV79D04H501W'),
@@ -63,8 +63,13 @@ INSERT INTO VERBALE (idanagrafica, idviolazione, DataViolazione, IndirizzoViolaz
 (3, 3, '2025-02-10', 'Viale Italia 8', 'Agente Rossi', '2025-02-11', 100.00, 5),
 (4, 4, '2025-02-12', 'Corso Garibaldi 3', 'Agente Esposito', '2025-02-13', 200.00, 4),
 (5, 5, '2025-02-15', 'Via Veneto 45', 'Agente Ferrari', '2025-02-16', 300.00, 6),
-(6, 6, '2025-02-18', 'Piazza Dante 9', 'Agente Russo', '2025-02-19', 250.00, 0),
-(7, 7, '2025-02-20', 'Via Torino 7', 'Agente Colombo', '2025-02-21', 500.00, 10),
-(8, 8, '2025-02-25', 'Viale Europa 22', 'Agente Moretti', '2025-02-26', 450.00, 8),
-(9, 9, '2025-03-01', 'Via delle Rose 12', 'Agente Galli', '2025-03-02', 350.00, 7),
-(10, 10, '2025-03-05', 'Corso Vittorio 8', 'Agente Fontana', '2025-03-06', 400.00, 5);
+(6, 6, '2009-03-10', 'Piazza Dante 9', 'Agente Russo', '2009-03-11', 250.00, 2),
+(7, 7, '2009-05-20', 'Via Torino 7', 'Agente Colombo', '2009-05-21', 500.00, 8),
+(8, 8, '2009-06-15', 'Viale Europa 22', 'Agente Moretti', '2009-06-16', 450.00, 5),
+(9, 9, '2009-07-01', 'Via delle Rose 12', 'Agente Galli', '2009-07-02', 350.00, 4),
+(10, 10, '2009-02-05', 'Corso Vittorio 8', 'Agente Fontana', '2009-02-06', 400.00, 3),
+(1, 1, '2009-04-12', 'Via Roma 15', 'Agente Galli', '2009-04-13', 120.00, 2),
+(2, 2, '2009-05-22', 'Via Milano 30', 'Agente Bianchi', '2009-05-23', 90.00, 1),
+(3, 3, '2009-06-10', 'Viale Italia 8', 'Agente Rossi', '2009-06-11', 110.00, 4),
+(4, 4, '2009-07-25', 'Corso Garibaldi 3', 'Agente Esposito', '2009-07-26', 200.00, 3),
+(5, 5, '2009-02-28', 'Via Veneto 45', 'Agente Ferrari', '2009-03-01', 310.00, 5);
