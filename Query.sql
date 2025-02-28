@@ -45,3 +45,13 @@ SELECT A.Cognome, A.Nome, A.Indirizzo, V.DataViolazione, V.Importo, V.Decurtamen
 FROM VERBALE V
 JOIN ANAGRAFICA A ON V.idanagrafica = A.idanagrafica
 WHERE V.Importo > 400;
+
+-- Es 13
+SELECT Nominativo_Agente, COUNT(*) AS NumeroVerbali, SUM(Importo) AS ImportoTotale 
+FROM VERBALE 
+GROUP BY Nominativo_Agente;
+
+-- Es 14
+SELECT idviolazione, AVG(Importo) AS MediaImporto 
+FROM VERBALE 
+GROUP BY idviolazione;
